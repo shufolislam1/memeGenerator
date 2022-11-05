@@ -9,6 +9,7 @@ const Prac = () => {
         .then(data => setMemes(data.data.data.memes))
     return (
         <div>
+
             {
                 memes?.map(meme => <Meme key={meme.id}
                     meme={meme}
