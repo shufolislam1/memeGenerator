@@ -1,13 +1,12 @@
 import React from 'react';
 
-const Meme = ({meme}) => {
-    const {name,url} = meme;
+const Meme = ({ meme }) => {
+    const { name, url } = meme;
 
     return (
         <div>
-            {/* <button onClick={loadImg()}>Click Me</button> */}
-            {/* <h1>Names: {name}</h1> */}
-            <img  src={url} alt="" />
+            <h1>Names: {name}</h1>
+            <img height={400} src={url} alt="" />
         </div>
     );
 };
